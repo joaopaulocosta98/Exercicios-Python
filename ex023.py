@@ -1,0 +1,7 @@
+nom = str(input('Digite o nome completo: ')).strip()
+print('O nome todo em maiúsculo fica: {}'.format(nom.upper()))
+print('O nome todo em minúsculo fica: {}'.format(nom.lower()))
+div =(nom.split())
+spc = (''.join(div))
+print('O número de letras totais são:',(len(spc)))
+print('O número de letras no primeiro nome é:',len(div[0]))
